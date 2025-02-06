@@ -10,6 +10,9 @@ namespace ProblemStatement1
 
             MovieTikit movieTikit = new MovieTikit();
             movieTikit.CalculatePrize();
+
+            Calculator calculator = new Calculator();
+            calculator.MenuDrivenCalculator();
         }
     }
 }
