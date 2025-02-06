@@ -13,6 +13,9 @@ namespace ProblemStatement1
 
             Calculator calculator = new Calculator();
             calculator.MenuDrivenCalculator();
+
+            LoginSystem loginSystem = new LoginSystem();
+            loginSystem.SignIn();
         }
     }
 }
