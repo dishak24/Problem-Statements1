@@ -16,6 +16,9 @@ namespace ProblemStatement1
 
             LoginSystem loginSystem = new LoginSystem();
             loginSystem.SignIn();
+
+            AirQualityIndex airQualityIndex = new AirQualityIndex();
+            airQualityIndex.checkAQI();
         }
     }
 }
